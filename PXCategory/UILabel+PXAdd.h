@@ -10,7 +10,7 @@
 
 @interface UILabel (PXAdd)
 
-- (instancetype)initWithFont:(UIFont *)font textColor:(UIColor *)textColor;
+- (instancetype)px_initWithFont:(UIFont *)font textColor:(UIColor *)textColor;
 
 + (instancetype)px_labelWithFont:(UIFont *)font textColor:(UIColor *)textColor;
 + (instancetype)px_labelWithSystemFontSize:(CGFloat)fontSize textColorHexString:(NSString *)hexString;

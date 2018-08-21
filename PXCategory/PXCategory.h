@@ -11,5 +11,6 @@
 
 #import "UIColor+PXAdd.h"
 #import "UILabel+PXAdd.h"
+#import "UIButton+PXAdd.h"
 
 #endif /* PXCategory_h */

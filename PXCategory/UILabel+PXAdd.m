@@ -11,23 +11,21 @@
 
 @implementation UILabel (PXAdd)
 
-- (instancetype)initWithFont:(UIFont *)font textColor:(UIColor *)textColor {
-    if (self = [super init]) {
-        self.font = font;
-        self.textColor = textColor;
-    }
-    return self;
+- (instancetype)px_initWithFont:(UIFont *)font textColor:(UIColor *)textColor {
+    return [UILabel px_labelWithFont:font textColor:textColor];
 }
 
 + (instancetype)px_labelWithFont:(UIFont *)font textColor:(UIColor *)textColor {
-    return [[UILabel alloc] initWithFont:font textColor:textColor];
+    UILabel *label = [self new];
+    label.font = font;
+    label.textColor = textColor;
+    return label;
+    
 }
 
 + (instancetype)px_labelWithSystemFontSize:(CGFloat)fontSize textColorHexString:(NSString *)hexString {
-    UILabel *label = [self new];
-    label.font = [UIFont systemFontOfSize:fontSize];
-//    label.textColor = [UIColor px_colorWithHexString:hexString];
-    return label;
+   
+    return [UILabel px_labelWithFont:[UIFont systemFontOfSize:fontSize] textColor:[UIColor px_colorWithHexString:hexString]];
 }
 
 @end
