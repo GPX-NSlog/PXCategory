@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UILabel (PXAdd)
+
 - (instancetype)initWithFont:(UIFont *)font textColor:(UIColor *)textColor;
 
 + (instancetype)px_labelWithFont:(UIFont *)font textColor:(UIColor *)textColor;
