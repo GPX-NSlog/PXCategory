@@ -1,6 +1,6 @@
 //
-//  UIColor+Add.m
-//  PXCategory
+//  UIColor+PXAdd.m
+//  CategoryiesDemo
 //
 //  Created by share on 2018/8/20.
 //  Copyright © 2018年 Gpx. All rights reserved.
@@ -33,9 +33,6 @@
     
     if (string.length != 7 && string.length != 4) {
         
-#ifdef DEBUG
-        NSLog(@"Unsupported string format: %@", string);
-#endif
         return nil;
     }
     

@@ -1,6 +1,6 @@
 //
 //  UILabel+PXAdd.m
-//  PXCategory
+//  CategoryiesDemo
 //
 //  Created by share on 2018/8/20.
 //  Copyright © 2018年 Gpx. All rights reserved.
@@ -26,7 +26,7 @@
 + (instancetype)px_labelWithSystemFontSize:(CGFloat)fontSize textColorHexString:(NSString *)hexString {
     UILabel *label = [self new];
     label.font = [UIFont systemFontOfSize:fontSize];
-    label.textColor = [UIColor px_colorWithHexString:hexString];
+//    label.textColor = [UIColor px_colorWithHexString:hexString];
     return label;
 }
 

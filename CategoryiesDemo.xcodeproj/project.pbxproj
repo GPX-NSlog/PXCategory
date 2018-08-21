@@ -14,7 +14,7 @@
 		3A741D6E212AE21E0047D7E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A741D6C212AE21E0047D7E4 /* LaunchScreen.storyboard */; };
 		3A741D71212AE21E0047D7E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A741D70212AE21E0047D7E4 /* main.m */; };
 		3A741D7A212AE2B00047D7E4 /* UILabel+PXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A741D79212AE2B00047D7E4 /* UILabel+PXAdd.m */; };
-		3A741D7D212AE3C80047D7E4 /* UIColor+PXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A741D7C212AE3C80047D7E4 /* UIColor+PXAdd.m */; };
+		3A741D81212BB58E0047D7E4 /* UIColor+PXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A741D80212BB58E0047D7E4 /* UIColor+PXAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +30,9 @@
 		3A741D70212AE21E0047D7E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A741D78212AE2B00047D7E4 /* UILabel+PXAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+PXAdd.h"; sourceTree = "<group>"; };
 		3A741D79212AE2B00047D7E4 /* UILabel+PXAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PXAdd.m"; sourceTree = "<group>"; };
-		3A741D7B212AE3C80047D7E4 /* UIColor+PXAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+PXAdd.h"; sourceTree = "<group>"; };
-		3A741D7C212AE3C80047D7E4 /* UIColor+PXAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PXAdd.m"; sourceTree = "<group>"; };
-		3A741D7E212AE7590047D7E4 /* PXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXCategory.h; sourceTree = "<group>"; };
+		3A741D7F212BB58E0047D7E4 /* UIColor+PXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PXAdd.h"; sourceTree = "<group>"; };
+		3A741D80212BB58E0047D7E4 /* UIColor+PXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PXAdd.m"; sourceTree = "<group>"; };
+		3A741D82212BB5E90047D7E4 /* PXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXCategory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +82,11 @@
 		3A741D77212AE2540047D7E4 /* PXCategory */ = {
 			isa = PBXGroup;
 			children = (
-				3A741D7E212AE7590047D7E4 /* PXCategory.h */,
+				3A741D82212BB5E90047D7E4 /* PXCategory.h */,
+				3A741D7F212BB58E0047D7E4 /* UIColor+PXAdd.h */,
+				3A741D80212BB58E0047D7E4 /* UIColor+PXAdd.m */,
 				3A741D78212AE2B00047D7E4 /* UILabel+PXAdd.h */,
 				3A741D79212AE2B00047D7E4 /* UILabel+PXAdd.m */,
-				3A741D7B212AE3C80047D7E4 /* UIColor+PXAdd.h */,
-				3A741D7C212AE3C80047D7E4 /* UIColor+PXAdd.m */,
 			);
 			path = PXCategory;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A741D7A212AE2B00047D7E4 /* UILabel+PXAdd.m in Sources */,
-				3A741D7D212AE3C80047D7E4 /* UIColor+PXAdd.m in Sources */,
 				3A741D66212AE21E0047D7E4 /* ViewController.m in Sources */,
 				3A741D71212AE21E0047D7E4 /* main.m in Sources */,
+				3A741D81212BB58E0047D7E4 /* UIColor+PXAdd.m in Sources */,
 				3A741D63212AE21E0047D7E4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
